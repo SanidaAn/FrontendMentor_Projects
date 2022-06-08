@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- BOOTSTRAP LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- CSS style -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center;color: hsl(215, 51%, 70%); ; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- BOOTSTRAP CARD -->
+  <div class="container">
+    <div class="row justify-content-center mt-5">
+      <div class="col-xs-6 col-md-9 col-lg-6">
+
+        
+          <div class="card border-0 w-50 mx-auto rounded-4">
+
+            <div class="content"> 
+              <a href="#">
+
+                  <div class="content-overlay"></div> 
+                  
+                  <img  src="images/image-equilibrium.jpg" class="card-img-top p-3 rounded-5 content-image" alt="cube_image">
+                  
+                  <div class="content-details fadeIn-bottom">
+                     
+                      <p class="content-text"><img src="/images/icon-view.svg"></p>
+                  </div>
+              </a>
+          </div><!--/content-->
+
+
+          <div class="card-body ">
+            <h5 class="card-title">Equilibrium #3429</h5>
+            <p class="card-text">Our Equilibrium collection promotes balance and calm.</p>
+          </div>
+
+          <ul class="list-group list-group-horizontal list-group-flush justify-content-between">
+
+            <li class="list-group-item first_item border-0"><span><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>&nbsp;&nbsp;</span>0.041 ETH</li>
+
+            <li class="list-group-item second_item border-0"><span> <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>&nbsp;&nbsp;</span>3 days left</li>
+
+          </ul>
+         
+         <hr class=""> 
+          <div class="card-body pt-0">
+            <img class="picture" src="images/image-avatar.png" style="width: 25px;">&nbsp;&nbsp;
+            <span class="first_span">Creation of</span>
+           <span class="second_span">Jules Wyvern</span>
+          </div>
+          
+        </div><!--/card-->
+
+      </div><!--/col-->
+    </div><!--/row-->
+
+</div><!--end container-fluid-->
+
+  <!-- END BOOTSTRAP CARD -->  
+  
+  <footer class="mt-4">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Sanida Anna</a>.
+    </div>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
+

@@ -1,0 +1,143 @@
+
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300 lighter;
+    
+}
+
+
+.card-title{
+    color:hsl(0, 0%, 100%)
+
+}
+.card-title:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+.card,.list-group-item{
+    background-color:  hsl(216, 50%, 16%);
+
+}
+
+.card-text{
+   
+    color:hsl(215, 51%, 70%);   
+    font-size: 0.8em;
+    
+}
+
+.first_item{
+    color:hsl(178, 100%, 50%);
+    font-size: 0.8em;
+    
+    
+}
+
+.second_item{
+    
+    color:hsl(215, 51%, 70%); 
+    font-size: 0.8em;    
+}
+
+.first_span{
+    color:hsl(215, 51%, 70%);  
+    font-size: 0.8em;
+}
+.second_span{
+    color:hsl(0, 0%, 100%);
+    font-size: 0.8em;
+}
+
+.second_span:hover{
+   
+    color:hsl(178, 100%, 50%);
+}
+
+
+.picture{
+   
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+
+
+hr{
+    color:white;
+    width:90%;
+    align-self: center;
+    
+}
+
+
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.content .content-overlay {
+    background:hsla(178, 100%, 50%, 0.284);
+    position: absolute;
+    left: 17px;
+    top:16px;
+    bottom: 17px;
+    right: 17px;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    border-radius: 18px !important;
+}
+
+.content:hover .content-overlay {
+    opacity: 1;
+}
+
+.content-image {
+    width: 100%;
+}
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    border-radius: 25px;
+}
+
+.content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.content-details p {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.fadeIn-bottom {
+    top: 80%;
+}
